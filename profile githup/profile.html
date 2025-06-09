@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div>
+        <form>
+          <input id="input" type="text" />
+          <button id="button" type="submit">Get Data</button>
+        </form>
+      </div>
+      <div class="data-content">
+        <img id="avatar_url" src="#" width="200" alt="personal pic" />
+        <p>name: <span id="name"></span></p>
+        <p>bio: <span id="bio"></span></p>
+        <p>twitter_username: <span id="twitter_username"></span></p>
+        <p>followers: <span id="followers"></span></p>
+      </div>
+    </div>
+    <script src="scripts/advanced-javascript/advanced-flow-control/Challenge.js"></script>
+  </body>
+</html>
